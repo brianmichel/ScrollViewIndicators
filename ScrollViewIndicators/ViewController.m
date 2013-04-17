@@ -40,7 +40,7 @@
     self.scrollView.frame = self.view.bounds;
     self.scrollView.contentSize = CGSizeMake(self.view.bounds.size.width * 3.0, self.view.bounds.size.height * 3.0);
     
-    UIScrollView *scrollView = self.scrollView; //set this to self.scrollView to see just a plain scrollview
+    UIScrollView *scrollView = self.tableView; //set this to self.scrollView to see just a plain scrollview
     
     [self setScrollViewIndicatorsForView:scrollView position:ScrollIndicatorPositionHorizontal];
     [self setScrollViewIndicatorsForView:scrollView position:ScrollIndicatorPositionVertical];

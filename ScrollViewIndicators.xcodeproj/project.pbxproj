@@ -17,13 +17,14 @@
 		48E98A99171F2C8700F1F957 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E98A98171F2C8700F1F957 /* Default@2x.png */; };
 		48E98A9B171F2C8700F1F957 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E98A9A171F2C8700F1F957 /* Default-568h@2x.png */; };
 		48E98A9E171F2C8700F1F957 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E98A9D171F2C8700F1F957 /* ViewController.m */; };
-		48E98AA1171F2C8700F1F957 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E98A9F171F2C8700F1F957 /* ViewController_iPhone.xib */; };
-		48E98AA4171F2C8700F1F957 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E98AA2171F2C8700F1F957 /* ViewController_iPad.xib */; };
 		48E98AAC171F2C8700F1F957 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E98AAB171F2C8700F1F957 /* SenTestingKit.framework */; };
 		48E98AAD171F2C8700F1F957 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E98A84171F2C8700F1F957 /* UIKit.framework */; };
 		48E98AAE171F2C8700F1F957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E98A86171F2C8700F1F957 /* Foundation.framework */; };
 		48E98AB6171F2C8700F1F957 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48E98AB4171F2C8700F1F957 /* InfoPlist.strings */; };
 		48E98AB9171F2C8700F1F957 /* ScrollViewIndicatorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E98AB8171F2C8700F1F957 /* ScrollViewIndicatorsTests.m */; };
+		48E98AC4171F2CBF00F1F957 /* UIScrollView+ScrollIndicators.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E98AC3171F2CBF00F1F957 /* UIScrollView+ScrollIndicators.m */; };
+		48E98AC8171F35F900F1F957 /* icn_scroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E98AC6171F35F900F1F957 /* icn_scroll.png */; };
+		48E98AC9171F35F900F1F957 /* icn_scroll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E98AC7171F35F900F1F957 /* icn_scroll@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,14 +53,16 @@
 		48E98A9A171F2C8700F1F957 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		48E98A9C171F2C8700F1F957 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		48E98A9D171F2C8700F1F957 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		48E98AA0171F2C8700F1F957 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		48E98AA3171F2C8700F1F957 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		48E98AAA171F2C8700F1F957 /* ScrollViewIndicatorsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewIndicatorsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E98AAB171F2C8700F1F957 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		48E98AB3171F2C8700F1F957 /* ScrollViewIndicatorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewIndicatorsTests-Info.plist"; sourceTree = "<group>"; };
 		48E98AB5171F2C8700F1F957 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48E98AB7171F2C8700F1F957 /* ScrollViewIndicatorsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewIndicatorsTests.h; sourceTree = "<group>"; };
 		48E98AB8171F2C8700F1F957 /* ScrollViewIndicatorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewIndicatorsTests.m; sourceTree = "<group>"; };
+		48E98AC2171F2CBF00F1F957 /* UIScrollView+ScrollIndicators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+ScrollIndicators.h"; path = "Classes/UIScrollView+ScrollIndicators.h"; sourceTree = "<group>"; };
+		48E98AC3171F2CBF00F1F957 /* UIScrollView+ScrollIndicators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ScrollIndicators.m"; path = "Classes/UIScrollView+ScrollIndicators.m"; sourceTree = "<group>"; };
+		48E98AC6171F35F900F1F957 /* icn_scroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icn_scroll.png; path = Resources/icn_scroll.png; sourceTree = "<group>"; };
+		48E98AC7171F35F900F1F957 /* icn_scroll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icn_scroll@2x.png"; path = "Resources/icn_scroll@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				48E98A8A171F2C8700F1F957 /* ScrollViewIndicators */,
+				48E98AC5171F35EB00F1F957 /* Resources */,
+				48E98A8B171F2C8700F1F957 /* Supporting Files */,
 				48E98AB1171F2C8700F1F957 /* ScrollViewIndicatorsTests */,
 				48E98A83171F2C8700F1F957 /* Frameworks */,
 				48E98A82171F2C8700F1F957 /* Products */,
@@ -123,9 +128,8 @@
 				48E98A94171F2C8700F1F957 /* AppDelegate.m */,
 				48E98A9C171F2C8700F1F957 /* ViewController.h */,
 				48E98A9D171F2C8700F1F957 /* ViewController.m */,
-				48E98A9F171F2C8700F1F957 /* ViewController_iPhone.xib */,
-				48E98AA2171F2C8700F1F957 /* ViewController_iPad.xib */,
-				48E98A8B171F2C8700F1F957 /* Supporting Files */,
+				48E98AC2171F2CBF00F1F957 /* UIScrollView+ScrollIndicators.h */,
+				48E98AC3171F2CBF00F1F957 /* UIScrollView+ScrollIndicators.m */,
 			);
 			path = ScrollViewIndicators;
 			sourceTree = "<group>";
@@ -142,6 +146,7 @@
 				48E98A9A171F2C8700F1F957 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = ScrollViewIndicators;
 			sourceTree = "<group>";
 		};
 		48E98AB1171F2C8700F1F957 /* ScrollViewIndicatorsTests */ = {
@@ -161,6 +166,16 @@
 				48E98AB4171F2C8700F1F957 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48E98AC5171F35EB00F1F957 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48E98AC6171F35F900F1F957 /* icn_scroll.png */,
+				48E98AC7171F35F900F1F957 /* icn_scroll@2x.png */,
+			);
+			name = Resources;
+			path = ScrollViewIndicators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +253,8 @@
 				48E98A97171F2C8700F1F957 /* Default.png in Resources */,
 				48E98A99171F2C8700F1F957 /* Default@2x.png in Resources */,
 				48E98A9B171F2C8700F1F957 /* Default-568h@2x.png in Resources */,
-				48E98AA1171F2C8700F1F957 /* ViewController_iPhone.xib in Resources */,
-				48E98AA4171F2C8700F1F957 /* ViewController_iPad.xib in Resources */,
+				48E98AC8171F35F900F1F957 /* icn_scroll.png in Resources */,
+				48E98AC9171F35F900F1F957 /* icn_scroll@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +292,7 @@
 				48E98A91171F2C8700F1F957 /* main.m in Sources */,
 				48E98A95171F2C8700F1F957 /* AppDelegate.m in Sources */,
 				48E98A9E171F2C8700F1F957 /* ViewController.m in Sources */,
+				48E98AC4171F2CBF00F1F957 /* UIScrollView+ScrollIndicators.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,22 +321,6 @@
 				48E98A8E171F2C8700F1F957 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		48E98A9F171F2C8700F1F957 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48E98AA0171F2C8700F1F957 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		48E98AA2171F2C8700F1F957 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48E98AA3171F2C8700F1F957 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		48E98AB4171F2C8700F1F957 /* InfoPlist.strings */ = {

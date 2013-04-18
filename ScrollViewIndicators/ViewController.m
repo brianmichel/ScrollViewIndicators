@@ -21,7 +21,7 @@
     if (self) {
         self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectZero];
         self.scrollView.backgroundColor = [UIColor magentaColor];
-        self.scrollView.contentInset = UIEdgeInsetsMake(1, 1, 1, 1);
+        //self.scrollView.contentInset = UIEdgeInsetsMake(1, 1, 1, 1);
         self.scrollView.pagingEnabled = YES;
         
         self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
@@ -40,17 +40,15 @@
     self.scrollView.frame = self.view.bounds;
     self.scrollView.contentSize = CGSizeMake(self.view.bounds.size.width * 3.0, self.view.bounds.size.height * 3.0);
     
-    UIScrollView *scrollView = self.tableView; //set this to self.scrollView to see just a plain scrollview
-    
+    UIScrollView *scrollView = self.scrollView; //set this to self.scrollView to see just a plain scrollview
+    [self.view addSubview:scrollView];
+
     [self setScrollViewIndicatorsForView:scrollView position:ScrollIndicatorPositionHorizontal];
     [self setScrollViewIndicatorsForView:scrollView position:ScrollIndicatorPositionVertical];
-    [self.view addSubview:scrollView];
 }
 
 - (void)setScrollViewIndicatorsForView:(UIScrollView *)view position:(ScrollIndicatorPosition)position {
-    view.contentInset = UIEdgeInsetsMake(1, 1, 1, 1);
     UIView *returnView = [view scrollIndicatorForPosition:position];
-    view.contentInset = UIEdgeInsetsZero;
     if ([returnView isKindOfClass:[UIImageView class]]) {
         //image stuff
         UIImageView *imageView = (UIImageView *)returnView;

@@ -11,9 +11,7 @@
 
 @implementation UIScrollView (ScrollIndicators)
 - (UIView *)scrollIndicatorForPosition:(ScrollIndicatorPosition)position {
-    UIEdgeInsets restorableInsets = self.contentInset;
-    self.contentInset = UIEdgeInsetsMake(1, 1, 1, 1);
-    
+    [self flashScrollIndicators];
     UIView *viewToReturn = nil;
     NSString *indicatorIvarString = nil;
     switch (position) {
@@ -35,7 +33,6 @@
             }
         }
     }
-    self.contentInset = restorableInsets;
     return viewToReturn;
 }
 @end
